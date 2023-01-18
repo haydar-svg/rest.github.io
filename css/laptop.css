@@ -1,0 +1,203 @@
+.nav_container {
+    width: 100%;
+    height: 420px;
+    border-radius: 0 0 40px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.message {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 30px;
+    right: 50px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.user_acount {
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    padding: 3px 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.desc {
+    width: 60%;
+    float: left;
+}
+
+.mini_desc {
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.full_desc {
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.desc_image {
+    width: 40%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pizza_image {
+    margin-top: 40px;
+    width: auto;
+    height: 300px;
+}
+
+.arrow_down {
+    width: 90px;
+    opacity: 0.8;
+    margin-top: -35px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.elements_container {
+    width: 100%;
+    height: 450px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.chevron {
+    width: 100px;
+}
+
+.scrool_container {
+    width: 80%;
+    overflow-x: auto
+}
+
+.scrool {
+    width: 2300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mile_container {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 10px;
+}
+
+.price_container {
+    opacity: 0.9;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    transform: rotateZ(-45deg);
+    margin-top: -30px;
+    margin-left: -60px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 800;
+    transform: rotateZ(-45deg);
+    margin-top: -75px;
+    margin-left: -30px;
+}
+
+.dh {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.desc_unit {
+    width: 100%;
+    height: 85%;
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.desc_unit_para {
+    opacity: 0;
+}
+
+.desc_unit:hover .desc_unit_para {
+    opacity: 1;
+}
+
+.description_container {
+    position: relative;
+    height: 15%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding-left: 10px;
+    text-transform: uppercase;
+    z-index: 2;
+    justify-content: space-between;
+}
+
+.add {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.add:hover {
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+ol {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+li a {
+    font-weight: 900;
+}
+
+li {
+    float: left;
+    font-size: 18px;
+    padding: 0px 10px;
+}
